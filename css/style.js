@@ -769,5 +769,8 @@ export default StyleSheet.create({
     },
     "js animate-box": {
         "opacity": 0
+    },
+    "aimg": {
+        "display": "block"
     }
 });

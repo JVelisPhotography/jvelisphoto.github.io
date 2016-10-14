@@ -1,17 +1,17 @@
 ;(function () {
-	
+
 	'use strict';
 
 
 
-	// iPad and iPod detection	
+	// iPad and iPod detection
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
 	};
 
 	var isiPhone = function(){
 	    return (
-			(navigator.platform.indexOf("iPhone") != -1) || 
+			(navigator.platform.indexOf("iPhone") != -1) ||
 			(navigator.platform.indexOf("iPod") != -1)
 	    );
 	};
@@ -50,7 +50,7 @@
 		$('.animate-box').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -69,15 +69,35 @@
 							el.removeClass('item-animate');
 						},  k * 200, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '85%' } );
 	};
-	
 
+	var initLightbox = function() {
+		$('#portfoliolist').magnificPopup({
+		  delegate: '.img', // child items selector, by clicking on it popup will open
+		  type: 'image'
+		});
+
+		$('.landscape').magnificPopup({
+		  delegate: '.img', // child items selector, by clicking on it popup will open
+		  type: 'image'
+		});
+
+		$('.portrait').magnificPopup({
+		  delegate: '.img', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		});
+
+		$('.wildlife').magnificPopup({
+		  delegate: '.img', // child items selector, by clicking on it popup will open
+		  type: 'image',
+		});
+	};
 
 	// Document on load.
 	$(function(){
@@ -85,6 +105,8 @@
 		burgerMenu();
 		// Animations
 		contentWayPoint();
+
+		initLightbox();
 	});
 
 
