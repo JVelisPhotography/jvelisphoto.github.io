@@ -79,22 +79,22 @@
 
 	var initLightbox = function() {
 		$('#portfoliolist').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  delegate: '.img', // child items selector, by clicking on it popup will open
 		  type: 'image'
 		});
 
 		$('.landscape').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  delegate: '.img', // child items selector, by clicking on it popup will open
 		  type: 'image'
 		});
 
 		$('.portrait').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  delegate: '.img', // child items selector, by clicking on it popup will open
 		  type: 'image',
 		});
 
 		$('.wildlife').magnificPopup({
-		  delegate: 'a', // child items selector, by clicking on it popup will open
+		  delegate: '.img', // child items selector, by clicking on it popup will open
 		  type: 'image',
 		});
 	};
