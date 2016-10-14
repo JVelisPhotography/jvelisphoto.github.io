@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -474,6 +474,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   overflow: hidden;
   position: relative !important;
   cursor: pointer;
+  height: 265px;
 }
 
 .portfolio {
