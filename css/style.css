@@ -713,5 +713,10 @@ input[type="text"] {
   opacity: 0;
 }
 
+ a.img {
+  display: block;
+ 
+  }
+
 
 /*# sourceMappingURL=style.css.map */
