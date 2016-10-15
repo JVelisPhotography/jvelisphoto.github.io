@@ -539,8 +539,7 @@ export default StyleSheet.create({
     "portfolio-wrapper": {
         "overflow": "hidden",
         "position": "relative !important",
-        "cursor": "pointer",
-        "height": 265
+        "cursor": "pointer"
     },
     "portfolio": {
         "overflow": "hidden",
@@ -552,11 +551,6 @@ export default StyleSheet.create({
         "maxWidth": "100%",
         "zIndex": -1,
         "position": "relative",
-        "WebkitTransform": "scale(1.1)",
-        "MozTransform": "scale(1.1)",
-        "MsTransform": "scale(1.1)",
-        "OTransform": "scale(1.1)",
-        "transform": "scale(1.1)",
         "WebkitTransition": "all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)",
         "transition": "all 600ms cubic-bezier(0.645, 0.045, 0.355, 1)"
     },
