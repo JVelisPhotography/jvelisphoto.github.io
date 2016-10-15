@@ -170,11 +170,11 @@ h1, h2, h3, h4, h5, h6 {
 .menu-show #fh5co-main-nav {
   visibility: visible;
   opacity: 1;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+  transform:;
 }
 #fh5co-main-nav ul {
   text-align: center;
