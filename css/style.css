@@ -540,11 +540,11 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 
 .portfolio:hover img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: ;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+  transform:;
 }
 
 .team-section-grid {
