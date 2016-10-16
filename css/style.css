@@ -81,8 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::selection {
-  color: #fcfcfc;
-  background: #b7c2c2;
+  color: black;
+  background: black;
 }
 
 #fh5co-page {
