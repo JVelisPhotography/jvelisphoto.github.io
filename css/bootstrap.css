@@ -5333,9 +5333,9 @@ tbody.collapse.in {
 .label {
   display: inline;
   padding: .2em .6em .3em;
-  font-size: 75%;
+  font-size: 50%;
   font-weight: bold;
-  line-height: 1;
+  line-height: .5;
   color: #fff;
   text-align: center;
   white-space: nowrap;
