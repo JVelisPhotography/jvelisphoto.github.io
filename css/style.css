@@ -507,9 +507,9 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 .portfolio .label-bg {
   background: #A7CDCC;
   width: 100%;
-  height: -50%;
+  height: 50%;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
 }
 
