@@ -408,6 +408,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 #fh5co-services-section, #fh5co-contact-section,
 #fh5co-team-section {
   padding-bottom: 5em;
+  font-size: 15px;
 }
 
 #fh5co-intro-section {
