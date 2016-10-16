@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 5px;
-  background: #f0f0f0;
+  background: black;
   font-weight: 300;
 }
 body.menu-show {
@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ::selection {
   color: #fcfcfc;
-  background: black;
+  background: #b7c2c2;
 }
 
 #fh5co-page {
