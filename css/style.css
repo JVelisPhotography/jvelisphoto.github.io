@@ -537,6 +537,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   top: 60px;
   left: 155px;
   color: red;
+  font-weight: 200;
   font-size: 14px;
   text-transform: normal;
  
