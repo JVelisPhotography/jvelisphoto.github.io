@@ -15,7 +15,7 @@ body {
   font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 5px;
-  background: black;
+  background: #f0f0f0;
   font-weight: 300;
 }
 body.menu-show {
