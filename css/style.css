@@ -59,7 +59,7 @@ p, span {
 }
 
 span {
-  font-size: 15px;
+  font-size: 13px;
   color: rgba(114, 114, 114, 0.8);
 }
 
@@ -420,7 +420,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 
 .intro-heading {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 300;
   line-height: 1.5;
   margin-bottom: 0;
