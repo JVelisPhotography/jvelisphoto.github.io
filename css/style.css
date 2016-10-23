@@ -52,14 +52,14 @@ a:focus, a:active {
 
 p, span {
   margin-bottom: 1.5em;
-  font-size: 10px;
+  font-size: 20px;
   color: #727272;
   font-weight: 300;
   font-family: "Roboto", Arial, serif;
 }
 
 span {
-  font-size: 15px;
+  font-size: 10px;
   color: rgba(114, 114, 114, 0.8);
 }
 
