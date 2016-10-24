@@ -9,7 +9,7 @@ export default StyleSheet.create({
     "body": {
         "fontFamily": "\"Roboto\", Arial, serif",
         "lineHeight": 1.8,
-        "fontSize": 20,
+        "fontSize": 5,
         "background": "#f0f0f0",
         "fontWeight": "300"
     },
@@ -54,7 +54,7 @@ export default StyleSheet.create({
     },
     "span": {
         "marginBottom": 1.5,
-        "fontSize": 18,
+        "fontSize": 13,
         "color": "rgba(114, 114, 114, 0.8)",
         "fontWeight": "300",
         "fontFamily": "\"Roboto\", Arial, serif"
@@ -132,20 +132,9 @@ export default StyleSheet.create({
         "MsTransition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
         "OTransition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
         "transition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-        "WebkitTransform": "scale(1)",
-        "MozTransform": "scale(1)",
-        "MsTransform": "scale(1)",
-        "OTransform": "scale(1)",
-        "transform": "scale(1)",
         "background": "#fff"
     },
-    "menu-show fh5co-page": {
-        "WebkitTransform": "scale(0.9)",
-        "MozTransform": "scale(0.9)",
-        "MsTransform": "scale(0.9)",
-        "OTransform": "scale(0.9)",
-        "transform": "scale(0.9)"
-    },
+    "menu-show fh5co-page": {},
     "fh5co-main-nav": {
         "position": "absolute",
         "top": 0,
@@ -164,11 +153,6 @@ export default StyleSheet.create({
         "MsTransition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
         "OTransition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
         "transition": "all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275)",
-        "WebkitTransform": "scale(0)",
-        "MozTransform": "scale(0)",
-        "MsTransform": "scale(0)",
-        "OTransform": "scale(0)",
-        "transform": "scale(0)",
         "overflowY": "scroll"
     },
     "fh5co-main-nav fh5co-nav-toggle": {
@@ -216,12 +200,7 @@ export default StyleSheet.create({
     },
     "menu-show fh5co-main-nav": {
         "visibility": "visible",
-        "opacity": 1,
-        "WebkitTransform": "scale(1)",
-        "MozTransform": "scale(1)",
-        "MsTransform": "scale(1)",
-        "OTransform": "scale(1)",
-        "transform": "scale(1)"
+        "opacity": 1
     },
     "fh5co-main-nav ul": {
         "textAlign": "center",
@@ -339,7 +318,7 @@ export default StyleSheet.create({
         "float": "left"
     },
     "header fh5co-navbar-brand fh5co-logo": {
-        "fontSize": 35,
+        "fontSize": 45,
         "textTransform": "uppercase",
         "color": "#000",
         "fontWeight": "300"
@@ -355,6 +334,15 @@ export default StyleSheet.create({
     "header fh5co-navbar-brand fh5co-logo:focus": {
         "outline": "none",
         "textDecoration": "none"
+    },
+    "container image-container": {
+        "textAlign": "center",
+        "verticalAlign": "middle",
+        "display": "table-cell"
+    },
+    "container image-container img": {
+        "maxWidth": 160,
+        "maxHeight": 60
     },
     "fh5co-nav-toggle": {
         "cursor": "pointer",
@@ -489,14 +477,14 @@ export default StyleSheet.create({
     "fh5co-services-section": {
         "paddingBottom": 5
     },
-    "fh5co-contact-section": {
-        "paddingBottom": 5
-    },
     "fh5co-team-section": {
         "paddingBottom": 5
     },
+    "fh5co-contact-section": {
+        "fontSize": 15
+    },
     "intro-heading": {
-        "fontSize": 50,
+        "fontSize": 10,
         "fontWeight": "300",
         "lineHeight": 1.5,
         "marginBottom": 0
@@ -563,11 +551,11 @@ export default StyleSheet.create({
         "transition": "all 300ms cubic-bezier(0.645, 0.045, 0.355, 1)"
     },
     "portfolio label-bg": {
-        "background": "#A7CDCC",
+        "background": "no",
         "width": "100%",
-        "height": "100%",
+        "height": "50%",
         "position": "absolute",
-        "top": 0,
+        "top": 50,
         "left": 0
     },
     "portfolio label-text": {
@@ -592,8 +580,11 @@ export default StyleSheet.create({
         "textDecoration": "none !important"
     },
     "portfolio text-category": {
-        "display": "block",
-        "color": "#fff",
+        "position": "absolute",
+        "top": 60,
+        "left": 155,
+        "color": "white",
+        "fontWeight": "bold",
         "fontSize": 14,
         "textTransform": "normal"
     },
@@ -601,11 +592,11 @@ export default StyleSheet.create({
         "bottom": 0
     },
     "portfolio:hover img": {
-        "WebkitTransform": "scale(1.2)",
-        "MozTransform": "scale(1.2)",
-        "MsTransform": "scale(1.2)",
-        "OTransform": "scale(1.2)",
-        "transform": "scale(1.2)"
+        "WebkitTransform": "",
+        "MozTransform": "",
+        "MsTransform": "",
+        "OTransform": "",
+        "transform": ""
     },
     "team-section-grid": {
         "position": "relative",
@@ -766,5 +757,12 @@ export default StyleSheet.create({
     },
     "aimg": {
         "display": "block"
+    },
+    "imglogo": {
+        "display": "block",
+        "marginTop": 0,
+        "marginRight": "auto",
+        "marginBottom": 0,
+        "marginLeft": "auto"
     }
 });
