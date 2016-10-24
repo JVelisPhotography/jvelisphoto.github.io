@@ -276,9 +276,6 @@ header .fh5co-navbar-brand {
   float: left;
 }
 header .fh5co-navbar-brand .fh5co-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 45px;
   text-transform: uppercase;
   color: #000;
