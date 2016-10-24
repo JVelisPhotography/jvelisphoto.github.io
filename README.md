@@ -1,2 +1,2 @@
 # jvelis Photography Portfolio
-### jvelisphoto.github.io
+### Check it out live at [jvelisphoto](http://jvelisphoto.com/)
