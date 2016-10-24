@@ -290,6 +290,12 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   text-decoration: none;
 }
 
+a.center{
+    text-align:center;
+    margin: 0 auto;
+    padding:0px;
+}
+
 #container .image-container {
         text-align: center;
         vertical-align: middle;
